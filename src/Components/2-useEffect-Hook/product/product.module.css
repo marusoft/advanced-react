@@ -1,0 +1,22 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card {
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.productImage {
+  width: 120px;
+  margin-top: 0.9rem;
+}
+.cardBody {
+  padding: 2rem;
+}
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

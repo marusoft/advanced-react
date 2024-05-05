@@ -33,4 +33,6 @@ const UseEffectExample = () => {
 };
 export default UseEffectExample;
 
+useEffect(()=> console.log("hello useEffect"), [])
+
 

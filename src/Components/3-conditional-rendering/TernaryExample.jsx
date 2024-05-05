@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const TernaryExample = () => {
   const [isEditing, setIsEditing] = useState(true);
-  const [user, setuser] = useState({ name: "Jacob" });
+  const [user, setUser] = useState({ name: "Jacob" });
 
   return (
     <div>

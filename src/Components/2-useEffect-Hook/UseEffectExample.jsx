@@ -14,7 +14,7 @@ const UseEffectExample = () => {
         // console.log('data ==== ', data)
         const result = await data.json();
         setUsers(result);
-        console.log('result ==', result)
+        // console.log('result ==', result)
       } catch (error) {
         // failure response
         console.log(error)

@@ -64,6 +64,9 @@
   padding: 2rem 2.5rem;
   margin: 3rem auto;
 }
+h2, label{
+  color: #111;
+}
 .form-label {
   display: block;
   font-size: var(--small-text);

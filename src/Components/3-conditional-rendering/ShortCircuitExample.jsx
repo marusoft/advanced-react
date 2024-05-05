@@ -5,7 +5,7 @@ import { useState } from "react"
 const ShortCircuitExample = () => {
  const [text, setText] = useState("");
  const [name, setName] = useState("Abraham");
- const [user, setuser] = useState({name: "jacob"})
+ const [user, setUser] = useState({name: "jacob", age: 25, isMale: "male"})
 
   return (
     <div>
@@ -26,7 +26,7 @@ const ShortCircuitExample = () => {
         )} */}
 
         {
-          user && <SampleComponent name={user.name} />
+          user && <SampleComponent {...user} />
         }
       </div>
     </div>
@@ -34,11 +34,13 @@ const ShortCircuitExample = () => {
 }
 
 
-const SampleComponent = ({name}) => {
+const SampleComponent = ({name, age, isMale}) => {
   return (
     <div>
       <h2>SampleComponent</h2>
       <h2>{name}</h2>
+      <h3>{age}</h3>
+      <h4>{isMale}</h4>
     </div>
   );
 }

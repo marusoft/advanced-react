@@ -15,6 +15,7 @@ import { Home, About } from "./Components/pages/";
 import List from "./Components/7-code-challenge/List";
 import ControlledInput from "./Components/8-forms/controlled-inputs/ControlledInput";
 import UseEffectExample from "./Components/2-useEffect-Hook/UseEffectExample";
+import Products from "./Components/2-useEffect-Hook/product/Products";
 
 const App = () => {
   return (
@@ -35,8 +36,8 @@ const App = () => {
       <About />
       <List />
       <ControlledInput />
-
-      <UseEffectExample/>
+      {/* <UseEffectExample /> */}
+      <Products />
     </>
   );
 };
