@@ -15,7 +15,7 @@ const Example = () => {
           setIsError(true)
           return
         }
-        console.log(response);
+        // console.log(response);
         const result = await response.json();
         // console.log(result);
         setUser(result);

@@ -20,7 +20,7 @@ const Products = () => {
     };
     fetchProducts();
   }, []);
-  console.log("products", products);
+  // console.log("products", products);
   return (
     <div>
       <hr />
@@ -28,7 +28,7 @@ const Products = () => {
       <div className={styles.cards}>
         {products.map((product) => {
           return (
-            <div className={styles.card}>
+            <div className={styles.card} key={product.id}>
               <img
                 className={styles.productImage}
                 src={product.image}
