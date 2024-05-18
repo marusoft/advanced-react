@@ -18,6 +18,7 @@ import UseEffectExample from "./Components/2-useEffect-Hook/UseEffectExample";
 import Products from "./Components/2-useEffect-Hook/product/Products";
 import UserChallenge from "./Components/8-forms/controlled-inputs/UserChallenge";
 import MultipleInput from "./Components/8-forms/controlled-inputs/MultipleInput";
+import OtherInput from "./Components/8-forms/controlled-inputs/OtherInput";
 
 const App = () => {
   return (
@@ -39,8 +40,9 @@ const App = () => {
       <List />
       <ControlledInput />
       {/* <UseEffectExample /> */}
-      <UserChallenge />
       <MultipleInput/>
+      <UserChallenge />
+      <OtherInput/>
       <Products />
     </>
   );
