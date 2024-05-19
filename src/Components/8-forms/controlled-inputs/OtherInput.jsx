@@ -13,7 +13,8 @@ const OtherInput = () => {
   };
 
   const handleFramwork = (e) => {
-    setFramework(e.target.value)
+    console.log(e.target.value);
+    setFramework(e.target.value);
   };
 
   return (

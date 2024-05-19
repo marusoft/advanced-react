@@ -19,6 +19,10 @@ import Products from "./Components/2-useEffect-Hook/product/Products";
 import UserChallenge from "./Components/8-forms/controlled-inputs/UserChallenge";
 import MultipleInput from "./Components/8-forms/controlled-inputs/MultipleInput";
 import OtherInput from "./Components/8-forms/controlled-inputs/OtherInput";
+import UncontrolledInput from "./Components/8-forms/uncontrolled-input/UncontrolledInput";
+import UseRef from "./Components/9-useRef-Hook/UseRef";
+import ToggleExample from "./Components/10-custom-hook/ToggleExample";
+import ToggleExampleWithCustomHook from "./Components/10-custom-hook/ToggleExampleWithCustomHook";
 
 const App = () => {
   return (
@@ -40,9 +44,16 @@ const App = () => {
       <List />
       <ControlledInput />
       {/* <UseEffectExample /> */}
-      <MultipleInput/>
+      <MultipleInput />
       <UserChallenge />
-      <OtherInput/>
+      <OtherInput />
+      {/* UncontrolledInput */}
+      <UncontrolledInput />
+      <UseRef />
+      {/* ToggleExample without custom hook  */}
+      <ToggleExample />
+      {/* ToggleExample with custom hook  */}
+      <ToggleExampleWithCustomHook/>
       <Products />
     </>
   );
