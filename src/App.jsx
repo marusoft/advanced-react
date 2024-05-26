@@ -23,6 +23,7 @@ import UncontrolledInput from "./Components/8-forms/uncontrolled-input/Uncontrol
 import UseRef from "./Components/9-useRef-Hook/UseRef";
 import ToggleExample from "./Components/10-custom-hook/ToggleExample";
 import ToggleExampleWithCustomHook from "./Components/10-custom-hook/ToggleExampleWithCustomHook";
+import FetchData from "./Components/11-custom-hook-challengeOne/FetchData"
 
 const App = () => {
   return (
@@ -54,6 +55,7 @@ const App = () => {
       <ToggleExample />
       {/* ToggleExample with custom hook  */}
       <ToggleExampleWithCustomHook/>
+      <FetchData />
       <Products />
     </>
   );
